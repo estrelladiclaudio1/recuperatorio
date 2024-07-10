@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Emilia</title>
+</head>
+
+<body>
+    <h1>Pagina Emilia Mernes</h1>
+    <header>
+        <nav class="boton">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#oufits">Oufits</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat corrupti consequatur tenetur inventore
+                consectetur, quod ea, fuga illum quam fugiat quasi perferendis doloribus? Consectetur blanditiis, fugit
+                consequatur veritatis ab labore?</p>
+        </section>
+        <section id="biografia">
+            <h2>Biografia</h2>
+            <p>María Emilia Mernes nació el 29 de octubre de 1996 en Nogoyá, Entre Ríos (Argentina). Desde pequeña le
+                interesaba la música y la danza, pero fue a los 12 años que se comenzó a involucrar, más cuando su
+                abuelo le regaló su primera guitarra y comenzó a tomar clases de canto.</p>
+            <div class="imagenes">
+                <img src="img/emilia1.jpeg" alt="imagen 1" class="rounded">
+                <img src="img/emilia2.jpeg" alt="imagen 2" class="rounded">
+                <img src="img/emilia3.jpeg" alt="imagen 3" class="rounded">
+                <img src="img/emilia4.jpeg" alt="imagen 4" class="rounded">
+            </div>
+        </section>
+        <section id="oufits">
+            <h2>Oufits</h2>
+            <p>Estos son unos oufits iconicos de Emilia Mernes</p>
+            <div class="Oufits">
+                <img src="img/oufit1.avif" alt="Oufit 1" class="rounded">
+                <img src="img/oufit2.jpeg" alt="Oufit 2" class="rounded">
+                <img src="img/oufit3.webp" alt="Oufit 3" class="rounded">
+                <img src="img/oufit4.jpeg" alt="Oufit 4" class="rounded">
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="submit.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Emilia Mernes. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
